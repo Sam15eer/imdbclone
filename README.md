@@ -1,3 +1,5 @@
+![Screenshot (36)](https://github.com/Sam15eer/imdbclone/assets/116796899/844788d1-5ad8-4e29-b127-6bc5c132c28b)
+![Uploading Screenshot (35).png…]()
 # imdbclone
 # IMDb Web Application
 
@@ -37,3 +39,8 @@ Note: The IMDb API is used to fetch movie data. Some movie titles may not be fou
 
 Enjoy exploring and managing your favorite movies with the IMDb Web Application!
 
+# Respo link - https://github.com/Sam15eer/imdbclone.git![Uploading Screenshot (34).png…]()
+![Uploading Screenshot (33).png…]()
+![Screenshot (35)](https://github.com/Sam15eer/imdbclone/assets/116796899/bcee7f70-a96d-4561-bb84-4729cd546d1c)
+
+# Hoisting link -  https://sam15eer.github.io/imdbclone/
