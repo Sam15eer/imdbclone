@@ -1,10 +1,14 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Meta tags for defining character encoding, compatibility, and viewport settings -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- Include a stylesheet for styling the favorites page -->
     <link rel="stylesheet" href="fav.css">
+    <!-- Include the Font Awesome icon library for using icons in the page -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
@@ -14,13 +18,19 @@
     />
 </head>
 <body>
+    <!-- Header section with page title and navigation icons -->
     <header>
-        <a href="index.html">  <i class="fa-solid fa-house fa-2x"> </i></a> 
+        <!-- Home button to navigate to the index page -->
+        <a href="index.html">  <i class="fa-solid fa-house fa-2x"> </i></a>
+        <!-- Page title: Favorites Movies List -->
         <h2>Favourites Movies List</h2>
-        <i class="fa-solid fa-trash fa-2x" id="deleteall" style="cursor: pointer;"></i>      
+        <!-- Icon for deleting all favorites, with a cursor style for interaction -->
+        <i class="fa-solid fa-trash fa-2x" id="deleteall" style="cursor: pointer;"></i>
     </header>
+    <!-- Container for displaying the list of favorite movies -->
     <div id="favmovlist">
     </div>
+    <!-- Include the JavaScript file for managing favorites functionality -->
     <script src="fav.js"></script>
 </body>
 </html>
