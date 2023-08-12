@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- The following meta tags define the character encoding, compatibility, and viewport settings for the document -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>imdb</title>
+    <!-- Include a stylesheet for styling the IMDb-related elements -->
+    <link rel="stylesheet" href="imdb.css" />
+    <!-- Include the Font Awesome icon library for using icons in the page -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Navigation section with IMDb-related elements -->
+    <nav>
+      <!-- IMDb Home button -->
+      <div class="home-btn-container" id="home-btn"><i class="fa-solid fa-house fa-2x"></i></div>
+      <!-- Search form -->
+      <form id="form-container" autocomplete="off">
+        <input type="text" id="input-field" placeholder="Search....">
+        <!-- Autocomplete list for search suggestions -->
+        <div id="autocomplete-list">
+          <div id="list-movie-names">
+            <!-- List of movie name suggestions (currently commented out) -->
+          </div>
+        </div>
+        <!-- Search icon -->
+        <div id="search"><i class="fa-solid fa-magnifying-glass fa-2x"></i></div>
+      </form>
+      <!-- Favorites button and counter -->
+      <div class="fav-btn-container">
+        <a href="fav.html"><i class="fa-solid fa-heart fa-2x"></i></a>
+        <!-- Counter for the number of favorites -->
+        <div id="counter">0</div>
+      </div>
+    </nav>
+    <!-- Main content section -->
+    <main>
+      <!-- Container for displaying movie information (currently commented out) -->
+      <div id="movie-info-container">
+            <!-- Individual movie details (currently commented out) -->
+      </div>
+    </main>
+    <!-- Include the IMDb-specific JavaScript -->
+    <script src="imdb.js"></script>
+  </body>
+</html>
